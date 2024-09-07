@@ -1,0 +1,217 @@
+*{
+    font-weight: 600;
+}
+body{
+    font-family: "mojfont";
+    background-color: #41444D;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    border-radius: 3px;
+}
+
+.green{
+    color: rgba(110, 190, 69, 1);
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+.white{
+    color: #e4e4e4;
+    font-size: 35px;
+    padding-bottom: 26px;
+}
+.white_2{
+    color: #dadada;
+    font-size: 27px;
+    padding-bottom: 9px;
+}
+.completed{
+    font-size: 16px;
+    color: rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+.completed span{
+    color: #6EBE45;
+}
+.nav{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 6px;
+}
+.nav p{
+    padding-left: 30px;
+}
+
+.nav > *{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(43, 12, 116, 0);
+}
+.nav > a:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    color: white;
+}
+.selected{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    color: white;
+}
+.navMobile{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    // flex: 1;
+    justify-content: end;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 12px;
+}
+.navMobile p{
+    // padding-left: 30px;
+    color: #FFF;
+}
+
+.navMobile button{
+  
+    padding: 2px 8px;
+    background-color: rgb(139, 139, 139);
+    margin-right: 5px;
+    border: none;
+}
+.navMobile button:hover{
+ 
+    background-color: white;
+}
+.selectedMobile{
+    color: rgb(196, 11, 11);
+    background-color: #FDB913!important;
+}
+
+.arrow_btns{
+    display: flex;
+    align-items: center;
+}
+.left_btn{
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    color: rgb(139, 139, 139);
+    padding: 0 10px;
+    font-weight: 400;
+
+}
+.right_btn{
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    color: rgb(139, 139, 139);
+    padding: 0 10px;
+    font-weight: 400;
+}
+.section_1{
+    color: rgb(139, 139, 139);
+    padding-bottom: 5px;
+}
+.section_1 .nav{
+    font-size: 15px;
+}
+
+.section_1_main{
+    background-image: url(img/dt.png);
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 2fr 1fr ;
+    grid-template-rows: 1.5fr 1fr ;
+    grid-template-areas:
+    "gamesInfo gamesInfo rankList"
+    "gamesList gamesList gamesList"
+}
+.active{
+    grid-template-areas:
+    "gamesInfo gamesInfo rankList"
+    "gamesList gamesList rankList"!important
+}
+.gamesInfo{
+    grid-area: gamesInfo;
+}
+.gamesList{
+    grid-area: gamesList;
+}
+.rankList{
+    grid-area: rankList;
+}
+.main_content_1{
+    /* padding: 0 0 0 48px; */
+    flex: 1;
+    overflow: hidden;
+}
+.content_1_wrapper{
+    padding: 47px 0 47px 47px;
+}
+.showMobile{
+    display: none!important;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #313540;
+}
+.showDesktop{
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #383C47;
+}
+
+
+
+
+
+// @media screen and (max-width: 1919px) {
+//     .games >:nth-last-child(-n+2) {
+//         display: none;
+//     }
+//     .games_2 >:nth-last-child(-n+2) {
+//         display: none;
+//     }
+//   }
+// @media screen and (max-width: 1589px) {
+//     .games >:nth-last-child(-n+4) {
+//         display: none;
+//     }
+//     .games_2 >:nth-last-child(-n+4) {
+//         display: none;
+//     }
+// }
+@media screen and (max-width: 999px) {
+    .section_1_main{
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/mob.png);
+        background-position-y: top; /* Center the image */
+        background-position-x: left;
+        background-size: 200px auto;
+        background-size: auto; /* Resize the background image to cover the entire container */
+    }
+    .section_1{
+    background-color: #313540;
+    }
+    .showDesktop{
+        display: none;
+    }
+    .showMobile{
+        display: flex!important;
+    }
+    }

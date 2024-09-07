@@ -1,0 +1,145 @@
+* {
+  font-weight: 600;
+  color: #e4e4e4;
+}
+body {
+  font-family: "mojfont";
+  background-color: #41444d;
+}
+button:hover {
+  cursor: pointer;
+}
+button {
+  border-radius: 3px;
+}
+
+.green {
+  color: rgba(110, 190, 69, 1);
+}
+
+.white {
+  color: #e4e4e4;
+  font-size: 35px;
+  padding-bottom: 7px;
+}
+
+.begins {
+  color: #ffffff00;
+}
+.beginsText {
+    font-size: 13px;
+  }
+
+.prize {
+  background: -webkit-linear-gradient(#ffffff, rgb(255, 187, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 58px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(#ffffff, rgb(255, 187, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.live_small {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+.live {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  padding-bottom: 51px;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+.time > div {
+  min-width: 30px;
+}
+.red_live {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  font-size: 21px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 69px;
+  margin-right: 17px;
+}
+.dots {
+  display: flex;
+  align-items: start;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.read_more {
+  border: 1px solid rgb(255, 187, 0);
+  background-color: transparent;
+  color: rgb(230, 230, 230);
+  padding: 13px 51px;
+  font-size: 18px;
+  // margin-right: 32px;
+}
+.participate {
+  border: 1px solid rgb(255, 187, 0);
+  background-color: rgb(230, 168, 0);
+  color: rgb(230, 230, 230);
+  padding: 13px 51px;
+  font-size: 18px;
+  margin-left: 32px;
+}
+
+.content_1_wrapper {
+  padding: 47px 0 47px 47px;
+}
+
+@media screen and (max-width: 999px) {
+  .content_1_wrapper {
+    padding: 47px 0 47px 47px;
+    display: flex;
+    align-items: end;
+  }
+  .live {
+    padding-bottom: 0px;
+  }
+  .read_more {
+    margin-left: 32px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .content_1_wrapper {
+    padding: 47px 0 47px 47px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .live {
+    padding-bottom: 30px;
+  }
+  .read_more {
+    margin-left: 0;
+  }
+  .participate {
+    margin-top: 22px;
+  }
+}
+@media screen and (max-width: 521px) {
+
+}

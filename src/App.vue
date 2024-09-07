@@ -1,32 +1,42 @@
 <template>
   <div id="app">
-    <nav>
+    <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    </nav> -->
+    <Header />
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+#app {
+  @font-face {
+    font-family: "mojfont";
+    src: url("assets/ProximaNovaRegular.ttf") format("truetype");
   }
+  font-family: "mojfont";
+  background-color: #41444d;
 }
 </style>
+
+<script>
+// @ is an alias to /src
+import Header from "@/components/header/Header.vue";
+// import HeaderSection from '@/components/Header/HeaderSection.vue'
+import Footer from "@/components/footer/Footer.vue";
+
+export default {
+  // name: 'HomeView',
+  components: {
+    Header,
+    Footer,
+  },
+};
+</script>

@@ -1,0 +1,51 @@
+
+body{
+    font-family: "mojfont";
+    background-color: #41444D;
+}
+
+
+.gradient_125{
+    background: -webkit-linear-gradient(#ffffff, rgb(255, 187, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+.games_info{
+    padding-left: 47px;
+    padding-bottom: 12px;
+    color: rgb(230, 230, 230);
+    // font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+// @media screen and (max-width: 1919px) {
+//     .games >:nth-last-child(-n+2) {
+//         display: none;
+//     }
+//     .games_2 >:nth-last-child(-n+2) {
+//         display: none;
+//     }
+//   }
+// @media screen and (max-width: 1589px) {
+//     .games >:nth-last-child(-n+4) {
+//         display: none;
+//     }
+//     .games_2 >:nth-last-child(-n+4) {
+//         display: none;
+//     }
+// }
+// @media screen and (max-width: 1289px) {
+//     .games >:nth-last-child(-n+5) {
+//         display: none;
+//     }
+//     .games_2 >:nth-last-child(-n+5) {
+//         display: none;
+//     }
+//     }

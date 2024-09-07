@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+svg{
+    transform: translate(0,7px);
+}
+.bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+.nav{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 6px;
+}
+.nav p{
+    padding-left: 30px;
+}
+.nav_middle{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+    font-size: 19px;
+}
+.nav > *{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(26, 224, 75, 0);
+}
+.nav_middle > *{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(43, 12, 116, 0);
+}
+.nav > a:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    color: white;
+}
+.nav_middle > *:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    color: white;
+}
+.tournamentsSelected{
+    border-bottom: 2px solid rgb(255, 187, 0)!important;
+    color: white;
+}
+.nav_right{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: end;
+    overflow: hidden;
+    padding-right: 6px;
+}
+.nav_right > *{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(43, 12, 116, 0);
+}
+.nav_right > *:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    color: white;
+}
+header{
+    background-color: #280071;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    box-shadow: inset 0 0 10px #00000070;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.logo{
+    width: auto;
+    height: auto;
+}
+.logo_div{
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+}
+
+
+//HEADER BOTTOM SECTION
+
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #280071;
+    height: 62px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.register{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 16px;
+}
+.register > *{
+    color: #FDB913;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+    padding-right: 16px;
+}
+.login > *{
+    color: #FDB913;
+}
+.nav_middle{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+    font-size: 19px;
+}
+.nav_middle > *{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(43, 12, 116, 0);
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+.nav_middle > *:hover{
+    border-bottom: 2px solid rgb(255, 187, 0);
+    color: white;
+}

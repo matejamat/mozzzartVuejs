@@ -1,0 +1,714 @@
+{  
+    "info":[
+        {  
+            "name": "Wild West Challenge",
+            "prize": "€ 100.000",
+            "dateStart": "27 Dec 2023 00:00:00 GMT+1",   
+            "dateFinish": "27 Dec 2024 10:10:10 GMT+1",         
+            "id": 0,
+            "rankings":
+            [{  
+                "rank": "1.",
+                "name": "M. Vrcelj",
+                "number": "4451",
+                "prize": "€ 15.032,00",        
+                "id": 1
+            },
+            {  
+                "rank": "2.",
+                "name": "R. Milosevic",
+                "number": "54",
+                "prize": "€ 5.032,00",        
+                "id": 2
+            },
+            {  
+                "rank": "3.",
+                "name": "G. Nekic",
+                "number": "444444",
+                "prize": "€ 450,00",        
+                "id": 3
+            },
+            {  
+                "rank": "4.",
+                "name": "M. Kardum",
+                "number": "5605",
+                "prize": "€ 32,00",        
+                "id": 4
+            },
+            {  
+                "rank": "5.",
+                "name": "I. Vrcelj",
+                "number": "11111",
+                "prize": "€ 45.032,00",        
+                "id": 5
+            },
+            {  
+                "rank": "6.",
+                "name": "P. Vrcelj",
+                "number": "512013",
+                "prize": "€ 11.113,00",        
+                "id": 6
+            },
+            {  
+                "rank": "7.",
+                "name": "M. Vrcelj",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 7
+            },
+            {  
+                "rank": "8.",
+                "name": "M. Vrcelj",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 8
+            },
+            {  
+                "rank": "9.",
+                "name": "M. Vrcelj",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 9
+            },
+            {  
+                "rank": "10.",
+                "name": "M. Vrcelj",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 10
+            },
+            {  
+                "rank": "11.",
+                "name": "M. Vrcelj",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 11
+            },
+            {  
+                "rank": "12.",
+                "name": "M. Vrcelj",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 12
+            }],
+            "gamesList":
+            [  {  
+                "name": "Gonzos Quest",
+                "url": "./img/pic1.png",
+                "id": 1
+            },
+            {  
+                "name": "Dazzle Me TM",
+                "url": "./img/pic2.png",
+                "id": 2
+            },
+            {  
+                "name": "Gonzos Quest",
+                "url": "./img/pic3.png",
+                "id": 3
+            },
+            {  
+                "name": "Dazzle Me TM",
+                "url": "./img/pic4.png",
+                "id": 4
+            },
+            {  
+                "name": "Gonzos Quest",
+                "url": "./img/pic2.png",
+                "id": 5
+            },
+            {  
+                "name": "Dazzle Me TM",
+                "url": "./img/pic4.png",
+                "id": 6
+            },
+            {  
+                "name": "Gonzos Quest",
+                "url": "./img/pic1.png",
+                "id": 7
+            },
+            {  
+                "name": "Dazzle Me TM",
+                "url": "./img/pic3.png",
+                "id": 8
+            },
+            {  
+                "name": "Gonzos Quest",
+                "url": "./img/pic1.png",
+                "id": 9
+            },
+            {  
+                "name": "Dazzle Me TM",
+                "url": "./img/pic2.png",
+                "id": 10
+            },
+            {  
+                "name": "Gonzos Quest",
+                "url": "./img/pic1.png",
+                "id": 11
+            },
+            {  
+                "name": "Dazzle Me TM",
+                "url": "./img/pic1.png",
+                "id": 12
+            }]
+
+        },
+        {  
+            "name":"Weekend Tournament",
+            "prize": "€ 80.000",
+            "dateStart": "05 Feb 2024 00:00:00 GMT+1",   
+            "dateFinish": "05 Dec 2024 05:33:44 GMT+1",          
+            "id": 1,
+            "rankings":
+            [ {  
+                "rank": "1.",
+                "name": "aaaaaaa",
+                "number": "345",
+                "prize": "€ 11.111,00",        
+                "id": 1
+            },
+            {  
+                "rank": "2.",
+                "name": "aaaaaaa",
+                "number": "9768",
+                "prize": "€ 1.111,00",        
+                "id": 2
+            },
+            {  
+                "rank": "3.",
+                "name": "aaaaaa",
+                "number": "46",
+                "prize": "€ 111,00",        
+                "id": 3
+            },
+            {  
+                "rank": "4.",
+                "name": "aaaaaa",
+                "number": "5678567",
+                "prize": "€ 11,00",        
+                "id": 4
+            },
+            {  
+                "rank": "5.",
+                "name": "aaaaaaa",
+                "number": "43436",
+                "prize": "€ 11.111,00",        
+                "id": 5
+            },
+            {  
+                "rank": "6.",
+                "name": "P. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 11.113,00",        
+                "id": 6
+            },
+            {  
+                "rank": "7.",
+                "name": "M. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 7
+            },
+            {  
+                "rank": "8.",
+                "name": "M. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 8
+            },
+            {  
+                "rank": "9.",
+                "name": "M. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 9
+            },
+            {  
+                "rank": "10.",
+                "name": "M. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 10
+            },
+            {  
+                "rank": "11.",
+                "name": "M. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 11
+            },
+            {  
+                "rank": "12.",
+                "name": "M. aaaaaaa",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 12
+            }],
+            "gamesList":
+            [            {  
+                "name": "game 2",
+                "url": "./img/pic2.png",
+                "id": 1
+            },
+            {  
+                "name": "aaaaa",
+                "url": "./img/pic3.png",
+                "id": 2
+            }]
+        },
+        {  
+            "name":"Ancient Greece",
+            "prize": "€ 250.000",
+            "dateStart": "01 Feb 2024 17:23:00 GMT+1",   
+            "dateFinish": "02 Dec 2024 20:15:30 GMT+1",          
+            "id": 2,
+            "rankings":
+            [ {  
+                "rank": "1.",
+                "name": "hh bbbbbb",
+                "number": "9999",
+                "prize": "€ 22.222,00",        
+                "id": 1
+            },
+            {  
+                "rank": "2.",
+                "name": "hh bbbbbb",
+                "number": "999",
+                "prize": "€ 2.222,00",        
+                "id": 2
+            },
+            {  
+                "rank": "3.",
+                "name": "hh bbbbbb",
+                "number": "99999",
+                "prize": "€ 222,00",        
+                "id": 3
+            },
+            {  
+                "rank": "4.",
+                "name": "hh bbbbbb",
+                "number": "999",
+                "prize": "€ 22,00",        
+                "id": 4
+            },
+            {  
+                "rank": "5.",
+                "name": "hh bbbbbb",
+                "number": "99999",
+                "prize": "€ 11.111,00",        
+                "id": 5
+            },
+            {  
+                "rank": "6.",
+                "name": "hh bbbbbb",
+                "number": "99999",
+                "prize": "€ 11.113,00",        
+                "id": 6
+            },
+            {  
+                "rank": "7.",
+                "name": "hh bbbbbb",
+                "number": "99999",
+                "prize": "€ 15.032,00",        
+                "id": 7
+            },
+            {  
+                "rank": "8.",
+                "name": "M. bbbbbb",
+                "number": "9999",
+                "prize": "€ 15.032,00",        
+                "id": 8
+            },
+            {  
+                "rank": "9.",
+                "name": "M. bbbbbb",
+                "number": "99999",
+                "prize": "€ 15.032,00",        
+                "id": 9
+            },
+            {  
+                "rank": "10.",
+                "name": "M. bbbbbb",
+                "number": "99999",
+                "prize": "€ 15.032,00",        
+                "id": 10
+            },
+            {  
+                "rank": "11.",
+                "name": "M. bbbbbb",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 11
+            },
+            {  
+                "rank": "12.",
+                "name": "M. bbbbbb",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 12
+            }],
+            "gamesList":
+            [            {  
+                "name": "vvvvv",
+                "url": "./img/pic3.png",
+                "id": 1
+            },
+            {  
+                "name": "fffff",
+                "url": "./img/pic1.png",
+                "id": 2
+            },
+            {  
+                "name": "vvvvv",
+                "url": "./img/pic4.png",
+                "id": 3
+            }]
+        },
+        {  
+            "name":"Cold War",  
+            "prize": "€ 150.000",
+            "dateStart": "11 Feb 2023 00:00:00 GMT+1",   
+            "dateFinish": "01 Dec 2024 00:00:00 GMT+1",   
+            "id": 3,
+            "rankings":
+            [  {  
+                "rank": "1.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 44.111,00",        
+                "id": 1
+            },
+            {  
+                "rank": "2.",
+                "name": "R. cccccccccccc",
+                "number": "7777",
+                "prize": "€ 4.111,00",        
+                "id": 2
+            },
+            {  
+                "rank": "3.",
+                "name": "G. ccc",
+                "number": "77777",
+                "prize": "€ 444,00",        
+                "id": 3
+            },
+            {  
+                "rank": "4.",
+                "name": "M. cccccccc",
+                "number": "77777",
+                "prize": "€ 44,00",        
+                "id": 4
+            },
+            {  
+                "rank": "5.",
+                "name": "I. ccc",
+                "number": "77777",
+                "prize": "€ 44.111,00",        
+                "id": 5
+            },
+            {  
+                "rank": "6.",
+                "name": "P. ccc",
+                "number": "7777",
+                "prize": "€ 44.113,00",        
+                "id": 6
+            },
+            {  
+                "rank": "7.",
+                "name": "M. ccc",
+                "number": "77777",
+                "prize": "€ 44.444,00",        
+                "id": 7
+            },
+            {  
+                "rank": "8.",
+                "name": "M. ccc",
+                "number": "777777",
+                "prize": "€ 15.032,00",        
+                "id": 8
+            },
+            {  
+                "rank": "9.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 15.032,00",        
+                "id": 9
+            },
+            {  
+                "rank": "10.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 15.032,00",        
+                "id": 10
+            },
+            {  
+                "rank": "11.",
+                "name": "M. ccc",
+                "number": "77777",
+                "prize": "€ 15.032,00",        
+                "id": 11
+            },
+            {  
+                "rank": "12.",
+                "name": "M. ccc",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 12
+            }],
+            "gamesList":
+            [            {  
+                "name": "ewrwe",
+                "url": "./img/pic4.png",
+                "id": 1
+            },
+            {  
+                "name": "tyuyt",
+                "url": "./img/pic1.png",
+                "id": 1
+            },
+            {  
+                "name": "ewrwe",
+                "url": "./img/pic4.png",
+                "id": 1
+            },
+            {  
+                "name": "tyuyt",
+                "url": "./img/pic1.png",
+                "id": 2
+            }]
+        },
+        {  
+            "name":"Zavrsen T",  
+            "prize": "€ 88.888",
+            "dateStart": "12 Mar 2021 00:00:00 GMT+1",   
+            "dateFinish": "15 May 2022 00:00:00 GMT+1",   
+            "id": 4,
+            "rankings":
+            [  {  
+                "rank": "1.",
+                "name": "M. ccc",
+                "number": "010101",
+                "prize": "€ 44.111,00",        
+                "id": 1
+            },
+            {  
+                "rank": "2.",
+                "name": "R. cccccccccccc",
+                "number": "0101",
+                "prize": "€ 4.111,00",        
+                "id": 2
+            },
+            {  
+                "rank": "3.",
+                "name": "G. ccc",
+                "number": "0101",
+                "prize": "€ 444,00",        
+                "id": 3
+            },
+            {  
+                "rank": "4.",
+                "name": "M. cccccccc",
+                "number": "0101",
+                "prize": "€ 44,00",        
+                "id": 4
+            },
+            {  
+                "rank": "5.",
+                "name": "I. ccc",
+                "number": "01101",
+                "prize": "€ 44.111,00",        
+                "id": 5
+            },
+            {  
+                "rank": "6.",
+                "name": "P. ccc",
+                "number": "7777",
+                "prize": "€ 44.113,00",        
+                "id": 6
+            },
+            {  
+                "rank": "7.",
+                "name": "M. ccc",
+                "number": "77777",
+                "prize": "€ 44.444,00",        
+                "id": 7
+            },
+            {  
+                "rank": "8.",
+                "name": "M. ccc",
+                "number": "777777",
+                "prize": "€ 15.032,00",        
+                "id": 8
+            },
+            {  
+                "rank": "9.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 15.032,00",        
+                "id": 9
+            },
+            {  
+                "rank": "10.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 15.032,00",        
+                "id": 10
+            },
+            {  
+                "rank": "11.",
+                "name": "M. ccc",
+                "number": "77777",
+                "prize": "€ 15.032,00",        
+                "id": 11
+            },
+            {  
+                "rank": "12.",
+                "name": "M. ccc",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 12
+            }],
+            "gamesList":
+            [            {  
+                "name": "ewrwe",
+                "url": "./img/pic4.png",
+                "id": 1
+            },
+            {  
+                "name": "tyuyt",
+                "url": "./img/pic3.png",
+                "id": 1
+            },
+            {  
+                "name": "ewrwe",
+                "url": "./img/pic4.png",
+                "id": 1
+            },
+            {  
+                "name": "ffff",
+                "url": "./img/pic2.png",
+                "id": 1
+            },
+            {  
+                "name": "tyuyt",
+                "url": "./img/pic1.png",
+                "id": 2
+            }]
+        },
+        {  
+            "name":"Zav Turnir 2",  
+            "prize": "€ 21.333",
+            "dateStart": "29 Sep 2021 00:00:00 GMT+1",   
+            "dateFinish": "11 Oct 2022 00:00:00 GMT+1",   
+            "id": 5,
+            "rankings":
+            [  {  
+                "rank": "1.",
+                "name": "M. ccc",
+                "number": "2223",
+                "prize": "€ 44.111,00",        
+                "id": 1
+            },
+            {  
+                "rank": "2.",
+                "name": "R. eeeee",
+                "number": "2423",
+                "prize": "€ 3.311,00",        
+                "id": 2
+            },
+            {  
+                "rank": "3.",
+                "name": "G. ddd",
+                "number": "3344",
+                "prize": "€ 424,00",        
+                "id": 3
+            },
+            {  
+                "rank": "4.",
+                "name": "M. cccccccc",
+                "number": "0101",
+                "prize": "€ 424,00",        
+                "id": 4
+            },
+            {  
+                "rank": "5.",
+                "name": "I. cffc",
+                "number": "01101",
+                "prize": "€ 44.111,00",        
+                "id": 5
+            },
+            {  
+                "rank": "6.",
+                "name": "P. ccc",
+                "number": "7777",
+                "prize": "€ 44.113,00",        
+                "id": 6
+            },
+            {  
+                "rank": "7.",
+                "name": "M. ccc",
+                "number": "77777",
+                "prize": "€ 44.444,00",        
+                "id": 7
+            },
+            {  
+                "rank": "8.",
+                "name": "M. ccc",
+                "number": "777777",
+                "prize": "€ 15.032,00",        
+                "id": 8
+            },
+            {  
+                "rank": "9.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 15.032,00",        
+                "id": 9
+            },
+            {  
+                "rank": "10.",
+                "name": "M. ccc",
+                "number": "7777",
+                "prize": "€ 15.032,00",        
+                "id": 10
+            },
+            {  
+                "rank": "11.",
+                "name": "M. ccc",
+                "number": "77777",
+                "prize": "€ 15.032,00",        
+                "id": 11
+            },
+            {  
+                "rank": "12.",
+                "name": "M. ccc",
+                "number": "512013",
+                "prize": "€ 15.032,00",        
+                "id": 12
+            }],
+            "gamesList":
+            [            {  
+                "name": "ewrwe",
+                "url": "./img/pic1.png",
+                "id": 1
+            },
+            {  
+                "name": "tyuyt",
+                "url": "./img/pic4.png",
+                "id": 1
+            },
+            {  
+                "name": "ewrwe",
+                "url": "./img/pic3.png",
+                "id": 1
+            },
+            {  
+                "name": "tyuyt",
+                "url": "./img/pic1.png",
+                "id": 2
+            }]
+        }
+    ]
+  
+}  

@@ -1,0 +1,112 @@
+.green{
+    color: rgba(110, 190, 69, 1);
+}
+.list_rankings{
+    position: relative;
+    margin: 16px;
+    color: rgb(230, 230, 230);
+    min-width: 410px;
+    border: 1px solid #41444D;
+    border-radius: 5px;
+    /* height: 584px; */
+}
+.player_rankings{
+    background-color: #383C47;
+    padding-left: 16px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(139, 139, 139);
+    border-radius: 5px 0 0 0;
+}
+.list_rankings_div{
+    overflow-y: scroll;
+    // height: 527px;
+    // height: var(--height);
+    background: #313540;
+    padding: 16px;
+    border-radius: 0 0 5px 0;
+    font-size: 13px;
+}
+.login_div{
+    background: #313540;
+    padding: 16px;
+    border-radius: 0 0 5px 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.loginHeader{
+    font-size: 23px;
+}
+
+.shadow{
+    position:absolute;
+    width: calc(100% - 5px);
+    height:110px;
+    bottom: 0;
+    box-shadow: inset 0px -100px 58px -27px rgba(49,53,64, 0.84);
+    pointer-events:none;
+}
+.list_rankings_div::-webkit-scrollbar {
+    width: 5px;
+  }
+
+/* Track */
+.list_rankings_div::-webkit-scrollbar-track {
+background: #1948d400;
+}
+
+/* Handle */
+.list_rankings_div::-webkit-scrollbar-thumb {
+background: #53565e;
+border-radius: 2px;
+}
+
+/* Handle on hover */
+.list_rankings_div::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+.list_rankings_div::-webkit-scrollbar {
+    width: 5px;
+  }
+
+.list_item{
+    display: flex;
+    justify-content: space-between;
+    height: 47px;
+}
+.list_item >*{
+    flex: 1;
+}
+.list_item :nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.list_item :nth-child(3){
+    display: flex;
+    justify-content: end;
+}
+.list_number{
+    display: flex;
+    flex-direction: row;
+}
+.list_number :nth-child(1){
+    color: #afafaf;
+    padding-right: 15px;
+}
+.participate{
+    border: 1px solid rgb(255, 187, 0) ;
+    background-color: rgb(230, 168, 0);
+    color: rgb(230, 230, 230);
+    padding: 21px 51px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    
+}
